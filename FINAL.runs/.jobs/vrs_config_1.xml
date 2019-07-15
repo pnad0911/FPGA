@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="SYSTEM_axi_smc_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_lmb_bram_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_axi_timer_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_axi_timer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_xbar_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_rst_mig_7series_0_83M_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_rst_mig_7series_0_83M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_microblaze_0_axi_intc_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_axi_uartlite_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_axi_ethernetlite_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_axi_ethernetlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_mdm_1_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_clk_wiz_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_microblaze_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_ilmb_v10_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_dlmb_v10_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="SYSTEM_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="SYSTEM_mig_7series_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_mig_7series_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_COUNTER_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_COUNTER_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_CLK60_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_CLK60_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="SYSTEM_axi_gpio_0_0_synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/SYSTEM_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="SYSTEM_axi_smc_0_synth_1"/>
+		<Parent Id="SYSTEM_lmb_bram_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_timer_0_0_synth_1"/>
+		<Parent Id="SYSTEM_xbar_0_synth_1"/>
+		<Parent Id="SYSTEM_rst_mig_7series_0_83M_0_synth_1"/>
+		<Parent Id="SYSTEM_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_ethernetlite_0_0_synth_1"/>
+		<Parent Id="SYSTEM_mdm_1_0_synth_1"/>
+		<Parent Id="SYSTEM_clk_wiz_0_0_synth_1"/>
+		<Parent Id="SYSTEM_microblaze_0_0_synth_1"/>
+		<Parent Id="SYSTEM_ilmb_v10_0_synth_1"/>
+		<Parent Id="SYSTEM_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="SYSTEM_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="SYSTEM_dlmb_v10_0_synth_1"/>
+		<Parent Id="SYSTEM_mig_7series_0_0_synth_1"/>
+		<Parent Id="SYSTEM_COUNTER_0_0_synth_1"/>
+		<Parent Id="SYSTEM_CLK60_0_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_gpio_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Xilinx/Vivado/FINAL/FINAL.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="SYSTEM_axi_smc_0_synth_1"/>
+		<Parent Id="SYSTEM_lmb_bram_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_timer_0_0_synth_1"/>
+		<Parent Id="SYSTEM_xbar_0_synth_1"/>
+		<Parent Id="SYSTEM_rst_mig_7series_0_83M_0_synth_1"/>
+		<Parent Id="SYSTEM_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_ethernetlite_0_0_synth_1"/>
+		<Parent Id="SYSTEM_mdm_1_0_synth_1"/>
+		<Parent Id="SYSTEM_clk_wiz_0_0_synth_1"/>
+		<Parent Id="SYSTEM_microblaze_0_0_synth_1"/>
+		<Parent Id="SYSTEM_ilmb_v10_0_synth_1"/>
+		<Parent Id="SYSTEM_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="SYSTEM_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="SYSTEM_dlmb_v10_0_synth_1"/>
+		<Parent Id="SYSTEM_mig_7series_0_0_synth_1"/>
+		<Parent Id="SYSTEM_COUNTER_0_0_synth_1"/>
+		<Parent Id="SYSTEM_CLK60_0_0_synth_1"/>
+		<Parent Id="SYSTEM_axi_gpio_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
